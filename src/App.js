@@ -4,10 +4,12 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Project from './Pages/Project/Project'
 import Contact from './Pages/Contact/Contact'
+import NavBar from './Pages/NavBar/NavBar';
 
 function App() {
   return(
     <div>
+      <NavBar />
       <Routes>
         <Route path = '/' element={<Home />} />
         <Route path = '/about' element={<About />} />
