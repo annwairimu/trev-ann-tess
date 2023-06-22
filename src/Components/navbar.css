@@ -1,0 +1,97 @@
+/* Header.css */
+
+.header {
+  position: relative;
+  background-color: transparent; /* Make the header background transparent */
+  height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: transparent; /* Make the navbar background transparent */
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: auto;
+  width: 100px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+}
+
+.nav-links li {
+  padding-left: 10px; /* Update margin-left to create spacing between links */
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.hero {
+  padding-top: 5rem;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+/* Header.css */
+
+.contact-button {
+  background-image: linear-gradient(to right, #ff9a9e, #fad0c4);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button:hover {
+  background-image: linear-gradient(to right, #a18cd1, #fbc2eb);
+}
+
+.contact-button:focus {
+  outline: none;
+}
+
+.contact-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
