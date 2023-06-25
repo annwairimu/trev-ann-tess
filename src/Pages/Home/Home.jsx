@@ -1,7 +1,13 @@
+import About from "../About/About";
+import ContactPage from "../Contact/Contact";
+import Project from "../Project/Project";
+
 const Home = () => {
     return ( 
         <div>
-           <h1> This is the main page </h1>
+           <About />
+           <Project />
+           <ContactPage />
         </div>
      );
 }

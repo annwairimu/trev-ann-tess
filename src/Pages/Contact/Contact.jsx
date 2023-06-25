@@ -23,7 +23,7 @@ function ContactPage() {
 
   return (
     <div>
-      <h1>Get in touch</h1>
+      <h1 className='heading' >Get in touch</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
